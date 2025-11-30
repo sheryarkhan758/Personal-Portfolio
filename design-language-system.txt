@@ -1,0 +1,199 @@
+# Portfolio Design Language System
+## Sheryar Ahmed Khan - Data Specialist & Community Leader
+
+### 🎨 Color Palette
+Primary Brand Colors:
+- Primary Dark Blue: #203654 (Main headings, primary text)
+- Accent Teal: #00C2CB (CTAs, highlights, interactive elements)
+- Secondary Blue: #0e3758 (Supporting text, badges)
+
+Neutral Colors:
+- Pure White: #FFFFFF (Backgrounds, cards)
+- Light Gray: #F8F9FA (Section backgrounds)
+- Medium Gray: #6B7280 (Body text)
+- Dark Gray: #374151 (Secondary text)
+
+Semantic Colors:
+- Success Green: #10B981
+- Warning Amber: #F59E0B
+- Error Red: #EF4444
+
+### 📐 Typography
+Primary Font: Inter (System fallback: -apple-system, BlinkMacSystemFont, Segoe UI)
+
+Hierarchy:
+- H1: 4xl-6xl (36-60px) - Hero titles
+- H2: 3xl-4xl (30-36px) - Section headers
+- H3: 2xl (24px) - Subsection titles
+- Body: lg (18px) - Primary content
+- Small: sm (14px) - Captions, metadata
+
+Font Weights:
+- Light: 300 (Descriptive text)
+- Regular: 400 (Body text)
+- Medium: 500 (Labels, captions)
+- Semibold: 600 (Card titles)
+- Bold: 700 (Section headers)
+
+### 🎯 Component Design Principles
+
+#### Cards & Containers
+- Background: Pure white (#FFFFFF)
+- Border Radius: 16-24px (xl-2xl)
+- Shadow: Subtle layered shadows (shadow-lg)
+- Border: 1px solid rgba(gray-200, 0.6)
+- Padding: 24-32px (p-6 to p-8)
+- Hover Effect: shadow-xl transition
+
+#### Buttons & Interactive Elements
+Primary CTA:
+- Background: Teal gradient (#00C2CB)
+- Text: White
+- Padding: 12px 24px
+- Border Radius: 12px
+- Hover: Slight scale (1.02) + darker shade
+
+Secondary Button:
+- Background: Gray-100
+- Text: Dark Blue (#203654)
+- Same padding and radius as primary
+
+#### Badges & Tags
+- Background: Teal/10 opacity (#00C2CB with 10% opacity)
+- Text: Dark Blue (#203654)
+- Padding: 6px 16px
+- Border Radius: Full (rounded-full)
+- Font: Medium weight, small size
+
+### 🎨 Visual Elements
+
+#### Background Decorations
+- Subtle gradient circles
+- Opacity: 5-15%
+- Colors: Teal and Blue variations
+- Position: Absolute, strategic placement
+- Size: 64px-384px (w-16 to w-96)
+
+#### Progress Indicators
+- Primary: Teal (#00C2CB)
+- Secondary: Light gray (#E5E7EB)
+- Animated pulse effects
+- Various sizes for visual rhythm
+
+#### Icons & Graphics
+- Stroke Width: 2px
+- Color: Matches text hierarchy
+- Size: 20-24px (w-5-6 h-5-6)
+- Style: Outline/stroke (Lucide React)
+
+### 📱 Responsive Design
+
+#### Breakpoints
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+#### Grid Systems
+- Mobile: 1 column
+- Tablet: 2-3 columns
+- Desktop: 3-5 columns
+
+#### Spacing Scale
+- xs: 4px
+- sm: 8px
+- md: 16px
+- lg: 24px
+- xl: 32px
+- 2xl: 48px
+- 3xl: 64px
+
+### 🎭 Animation & Transitions
+
+#### Standard Transitions
+- Duration: 200-300ms
+- Easing: ease-in-out
+- Properties: transform, opacity, shadow
+
+#### Hover Effects
+- Cards: Shadow elevation + slight scale
+- Buttons: Color change + scale (1.02)
+- Links: Color transition
+- Images: Scale (1.05) within container
+
+#### Loading States
+- Pulse animations
+- Skeleton screens with gray gradients
+- Smooth fade-ins
+
+### 📋 Content Guidelines
+
+#### Voice & Tone
+- Professional yet approachable
+- Clear and concise
+- Technical accuracy balanced with accessibility
+- Confident but not arrogant
+
+#### Imagery Style
+- High contrast, professional photos
+- Consistent color grading
+- Clean, minimal compositions
+- Proper aspect ratios (16:9, 1:1)
+
+### 🔧 Technical Implementation
+
+#### CSS Framework
+- Tailwind CSS for utility-first styling
+- Custom properties for brand colors
+- Responsive design with mobile-first approach
+
+#### Component Architecture
+- Reusable React components
+- Consistent prop interfaces
+- Semantic HTML structure
+- Accessibility considerations (ARIA labels, focus states)
+
+#### Performance Considerations
+- Optimized images (WebP format when possible)
+- Lazy loading for non-critical content
+- Minimal bundle size with tree shaking
+- CSS purging for unused styles
+
+### 🎯 Usage Guidelines
+
+#### Do's
+✅ Use consistent spacing from the scale
+✅ Maintain color contrast ratios (WCAG AA)
+✅ Apply hover states to interactive elements
+✅ Use semantic HTML structure
+✅ Test on multiple devices and screen sizes
+✅ Optimize for performance and accessibility
+
+#### Don'ts
+❌ Mix different border radius scales
+❌ Use colors outside the defined palette
+❌ Ignore responsive breakpoints
+❌ Overuse animations or effects
+❌ Compromise readability for aesthetics
+❌ Skip accessibility testing
+
+### 🚀 Brand Applications
+
+#### Professional Context
+- Clean, sophisticated layouts
+- Emphasis on data and technical skills
+- Community leadership highlights
+- Academic and certification showcases
+
+#### Personal Touch
+- Photography galleries with personality
+- Hobby sections with authentic content
+- Balanced professional and personal narrative
+- Engaging interactive elements
+
+---
+
+This design system ensures consistency, professionalism, and accessibility across the entire portfolio while maintaining the flexibility for future enhancements and updates.
+
+Version: 1.0
+Last Updated: November 2025
+Created by: Sheryar Ahmed Khan

@@ -1,0 +1,19 @@
+{
+  "name": "Sheryar Ahmed Khan Portfolio",
+  "short_name": "Sheryar K.",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#203654",
+  "background_color": "#f8faf8",
+  "display": "standalone"
+}
