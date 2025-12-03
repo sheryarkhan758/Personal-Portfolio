@@ -9,6 +9,9 @@ import techLeap7 from "../assets/TECH LEAP/7.jpg?url";
 // techLeap8 removed (file deleted)
 import techLeap9 from "../assets/TECH LEAP/9.jpg?url";
 import techLeap10 from "../assets/TECH LEAP/10.jpg?url";
+import codeclock1 from "../assets/Code'o Clock NUST/1.jpg?url";
+import codeclock2 from "../assets/Code'o Clock NUST/2.jpg?url";
+import codeclock3 from "../assets/Code'o Clock NUST/3.jpg?url";
 // codeclock4/5/6 removed (files deleted)
 import codeclock7 from "../assets/Code'o Clock NUST/7.jpg?url";
 import codeclock8 from "../assets/Code'o Clock NUST/8.jpg?url";
