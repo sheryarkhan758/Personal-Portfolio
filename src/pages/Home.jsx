@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 import "../assets/image-optimization.css";
 
 // Import weapon images
-import weapon1 from "../assets/Weapons 1.jpg";
+// weapon1 removed (Weapons 1.jpg deleted)
 import weapon2 from "../assets/Weapons 2.jpg";
 import weapon3 from "../assets/Weapons 3.jpg";
 import weapon4 from "../assets/Weapons 4.jpg";
@@ -15,17 +15,16 @@ import bird2 from "../assets/2 Birds.jpg";
 import bird3 from "../assets/3 Birds.jpg";
 import bird4 from "../assets/4 Birds.jpg";
 import bird5 from "../assets/5 Birds.jpg";
-import bird6 from "../assets/6 Birds.jpg";
-import bird7 from "../assets/7 Birds.jpg";
+// bird6/7 removed (6 Birds.jpg, 7 Birds.jpg deleted)
 
 // Import pet images
 import pet1 from "../assets/Pet 1.jpg";
-import pet2 from "../assets/Pet 2.jpg";
+// pet2 removed (Pet 2.jpg deleted)
 import pet3 from "../assets/Pet 3.jpg";
 import pet4 from "../assets/Pet 4.jpg";
 import pet5 from "../assets/Pet 5.jpg";
 import pet6 from "../assets/Pet 6.jpg";
-import pet7 from "../assets/Pet 7.jpg";
+// pet7 removed (Pet 7.jpg deleted)
 
 // Import photography images
 import viewGallery1 from "../assets/View Gallery.jpg";
@@ -78,7 +77,6 @@ export default function Home() {
 
   // Weapon gallery images
   const weaponImages = [
-    weapon1,
     weapon2,
     weapon3,
     weapon4,
@@ -91,20 +89,16 @@ export default function Home() {
     bird2,
     bird3,
     bird4,
-    bird5,
-    bird6,
-    bird7
+    bird5
   ];
 
   // Pet gallery images
   const petImages = [
     pet1,
-    pet2,
     pet3,
     pet4,
     pet5,
-    pet6,
-    pet7
+    pet6
   ];
 
   const openPhotoGallery = () => {

@@ -1,20 +1,15 @@
 // Import event images
 import techLeap1 from "../assets/TECH LEAP/1.jpg?url";
-import techLeap2 from "../assets/TECH LEAP/2.jpg?url";
+// techLeap2 removed (file deleted)
 import techLeap3 from "../assets/TECH LEAP/3.jpg?url";
 import techLeap4 from "../assets/TECH LEAP/4.jpg?url";
-import techLeap5 from "../assets/TECH LEAP/5.jpg?url";
+// techLeap5 removed (file deleted)
 import techLeap6 from "../assets/TECH LEAP/6.jpg?url";
 import techLeap7 from "../assets/TECH LEAP/7.jpg?url";
-import techLeap8 from "../assets/TECH LEAP/8.jpg?url";
+// techLeap8 removed (file deleted)
 import techLeap9 from "../assets/TECH LEAP/9.jpg?url";
 import techLeap10 from "../assets/TECH LEAP/10.jpg?url";
-import codeclock1 from "../assets/Code'o Clock NUST/1.jpg?url";
-import codeclock2 from "../assets/Code'o Clock NUST/2.jpg?url";
-import codeclock3 from "../assets/Code'o Clock NUST/3.jpg?url";
-import codeclock4 from "../assets/Code'o Clock NUST/4.jpg?url";
-import codeclock5 from "../assets/Code'o Clock NUST/5.jpg?url";
-import codeclock6 from "../assets/Code'o Clock NUST/6.jpg?url";
+// codeclock4/5/6 removed (files deleted)
 import codeclock7 from "../assets/Code'o Clock NUST/7.jpg?url";
 import codeclock8 from "../assets/Code'o Clock NUST/8.jpg?url";
 import codeclock9 from "../assets/Code'o Clock NUST/9.jpg?url";
@@ -22,20 +17,15 @@ import codeclock9 from "../assets/Code'o Clock NUST/9.jpg?url";
 import evolve1 from "../assets/Evolve/IMG-20251028-WA0020.jpg?url";
 import evolve2 from "../assets/Evolve/IMG-20251028-WA0021.jpg?url";
 import evolve3 from "../assets/Evolve/IMG-20251028-WA0022.jpg?url";
-import evolve4 from "../assets/Evolve/IMG-20251028-WA0023.jpg?url";
-import evolve5 from "../assets/Evolve/IMG-20251028-WA0024.jpg?url";
-import evolve6 from "../assets/Evolve/IMG-20251028-WA0025.jpg?url";
-import evolve7 from "../assets/Evolve/IMG-20251028-WA0026.jpg?url";
+// evolve4 removed (IMG-20251028-WA0023.jpg deleted)
+// evolve5/6/7 removed (files deleted)
 import evolve8 from "../assets/Evolve/IMG-20251028-WA0027.jpg?url";
 import evolve9 from "../assets/Evolve/IMG-20251028-WA0028.jpg?url";
-import evolve10 from "../assets/Evolve/IMG-20251028-WA0029.jpg?url";
-import evolve11 from "../assets/Evolve/IMG-20251028-WA0030.jpg?url";
-import evolve12 from "../assets/Evolve/IMG-20251028-WA0031.jpg?url";
+// evolve10/11/12 removed (files deleted)
 import evolve13 from "../assets/Evolve/IMG-20251028-WA0032.jpg?url";
-import evolve14 from "../assets/Evolve/IMG-20251028-WA0033.jpg?url";
+// evolve14 removed (IMG-20251028-WA0033.jpg deleted)
 import evolve15 from "../assets/Evolve/IMG-20251028-WA0034.jpg?url";
-import evolve16 from "../assets/Evolve/IMG-20251028-WA0035.jpg?url";
-import evolve17 from "../assets/Evolve/IMG-20251028-WA0036.jpg?url";
+// evolve16/17 removed (files deleted)
 import evolve18 from "../assets/Evolve/IMG-20251028-WA0037.jpg?url";
 // Import Build with AI event images
 import buildWithAI1 from "../assets/Build with AI/IMG-20251119-WA0006.jpg?url";
@@ -45,14 +35,14 @@ import buildWithAI3 from "../assets/Build with AI/IMG-20251119-WA0008.jpg?url";
 import sprintImagine1 from "../assets/Sprint to Imagine Cup IAMSCIENCE/1.jpg?url";
 import sprintImagine2 from "../assets/Sprint to Imagine Cup IAMSCIENCE/2.PNG?url";
 import sprintImagine3 from "../assets/Sprint to Imagine Cup IAMSCIENCE/3.jpg?url";
-import sprintImagine4 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0008.jpg?url";
+// sprintImagine4 removed (IMG-20251028-WA0008.jpg deleted)
 import sprintImagine5 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0010.jpg?url";
 // Import Sprint to Imagine Cup FJWU event images
 import sprintFjwu1 from "../assets/Sprint to Imagine Cup FJWU/1.jpg?url";
 import sprintFjwu2 from "../assets/Sprint to Imagine Cup FJWU/3.jpg?url";
 import sprintFjwu3 from "../assets/Sprint to Imagine Cup FJWU/4.jpg?url";
 import sprintFjwu4 from "../assets/Sprint to Imagine Cup FJWU/5.jpg?url";
-import sprintFjwu5 from "../assets/Sprint to Imagine Cup FJWU/6.jpg?url";
+// sprintFjwu5 removed (6.jpg deleted)
 // Import Tech Innovation AIR event images
 import techAir1 from "../assets/Tech Innvovation AIR/1.jpg?url";
 import techAir2 from "../assets/Tech Innvovation AIR/2.jpg?url";
@@ -64,7 +54,7 @@ import eMustaqbil1 from "../assets/E-Mustaqbil/1.jpg?url";
 import eMustaqbil2 from "../assets/E-Mustaqbil/2.jpg?url";
 import eMustaqbil3 from "../assets/E-Mustaqbil/3.jpg?url";
 import eMustaqbil4 from "../assets/E-Mustaqbil/IMG-20251129-WA0037.jpg?url";
-import eMustaqbil5 from "../assets/E-Mustaqbil/IMG-20251129-WA0039.jpg?url";
+// eMustaqbil5 removed (IMG-20251129-WA0039.jpg deleted)
 
 export const events = [
     {
@@ -178,21 +168,6 @@ The event was highly engaging, offering students a deeper understanding of emerg
                 caption: "Participants working on practical exercises"
             },
             {
-                src: codeclock4,
-                alt: "Group discussion and problem-solving",
-                caption: "Collaborative problem-solving session"
-            },
-            {
-                src: codeclock5,
-                alt: "Code review and feedback session",
-                caption: "Providing personalized feedback to students"
-            },
-            {
-                src: codeclock6,
-                alt: "Workshop presentation",
-                caption: "Explaining advanced programming concepts"
-            },
-            {
                 src: codeclock7,
                 alt: "Student participation",
                 caption: "Active student engagement and discussion"
@@ -282,11 +257,6 @@ The event was highly engaging, offering students a deeper understanding of emerg
                 caption: "Grand opening of Tech Leap 2024 conference"
             },
             {
-                src: techLeap2,
-                alt: "Keynote Speaker Session",
-                caption: "Industry expert delivering keynote presentation"
-            },
-            {
                 src: techLeap3,
                 alt: "Panel Discussion",
                 caption: "Expert panel discussing future of technology"
@@ -297,11 +267,6 @@ The event was highly engaging, offering students a deeper understanding of emerg
                 caption: "Hands-on technology workshop session"
             },
             {
-                src: techLeap5,
-                alt: "Networking Session",
-                caption: "Participants networking and sharing ideas"
-            },
-            {
                 src: techLeap6,
                 alt: "Tech Showcase",
                 caption: "Innovative projects and solutions showcase"
@@ -310,11 +275,6 @@ The event was highly engaging, offering students a deeper understanding of emerg
                 src: techLeap7,
                 alt: "Student Engagement",
                 caption: "Students actively participating in discussions"
-            },
-            {
-                src: techLeap8,
-                alt: "Award Ceremony",
-                caption: "Recognition of outstanding contributions"
             },
             {
                 src: techLeap9,
@@ -417,20 +377,10 @@ Ali Nawaz, Humair Shoukat`,
             { src: evolve1, alt: "Event Opening", caption: "History made! 🇵🇰" },
             { src: evolve2, alt: "Speaker Session", caption: "Inspiring talks by industry leaders." },
             { src: evolve3, alt: "Audience Engagement", caption: "Interactive Q&A session." },
-            { src: evolve4, alt: "Networking", caption: "Participants connecting and sharing ideas." },
-            { src: evolve5, alt: "Panel Discussion", caption: "Experts discussing the future of tech." },
-            { src: evolve6, alt: "Workshop", caption: "Hands-on coding session." },
-            { src: evolve7, alt: "Team Photo", caption: "The amazing organizing team." },
             { src: evolve8, alt: "Closing Ceremony", caption: "Celebrating the success of the event." },
             { src: evolve9, alt: "Group Photo", caption: "Participants and organizers together." },
-            { src: evolve10, alt: "Event Highlights", caption: "Key moments captured." },
-            { src: evolve11, alt: "Speaker Interaction", caption: "One-on-one discussions with speakers." },
-            { src: evolve12, alt: "Tech Showcase", caption: "Showcasing innovative projects." },
             { src: evolve13, alt: "Audience Participation", caption: "Engaged and enthusiastic attendees." },
-            { src: evolve14, alt: "Breakout Session", caption: "Focused group discussions." },
             { src: evolve15, alt: "Event Setup", caption: "Behind-the-scenes preparations." },
-            { src: evolve16, alt: "Volunteer Team", caption: "The backbone of the event." },
-            { src: evolve17, alt: "Keynote Speech", caption: "Inspiring words from our keynote speaker." },
             { src: evolve18, alt: "Event Wrap-up", caption: "Looking forward to the next chapter." }
         ],
         topics: [
@@ -553,11 +503,6 @@ Yet to new cities, new dreams, and an unstoppable journey of imagination!
                 caption: "Hamza Khattak introducing GitHub Copilot"
             },
             {
-                src: sprintImagine4,
-                alt: "Student Engagement",
-                caption: "Students actively participating in the event"
-            },
-            {
                 src: sprintImagine5,
                 alt: "Event Team",
                 caption: "Collaboration with IM Computing and Innovation Society"
@@ -646,11 +591,6 @@ Peshawar is done, Islamabad is done, Rawalpindi is done. Can you guess our next 
                 src: sprintFjwu4,
                 alt: "MCP Workshop",
                 caption: "Arsalan Khattak conducting Model Context Protocol workshop"
-            },
-            {
-                src: sprintFjwu5,
-                alt: "Event Team and Participants",
-                caption: "FJWU team and Microsoft Learn Student Ambassadors"
             }
         ],
         topics: [
@@ -740,11 +680,6 @@ I want to give a huge shoutout to Sir Imran Saeed for his incredible efforts in 
                 src: eMustaqbil4,
                 alt: "Panel Discussion",
                 caption: "IIUI faculty and alumni panel discussion"
-            },
-            {
-                src: eMustaqbil5,
-                alt: "Event Team and Participants",
-                caption: "CSS Society and Connected Pakistan collaboration"
             }
         ],
         topics: [
