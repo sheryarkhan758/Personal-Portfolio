@@ -21,10 +21,12 @@ import evolve1 from "../assets/Evolve/IMG-20251028-WA0020.jpg?url";
 import evolve2 from "../assets/Evolve/IMG-20251028-WA0021.jpg?url";
 import evolve3 from "../assets/Evolve/IMG-20251028-WA0022.jpg?url";
 // evolve4 removed (IMG-20251028-WA0023.jpg deleted)
-// evolve5/6/7 removed (files deleted)
+import evolve5 from "../assets/Evolve/IMG-20251028-WA0024.jpg?url";
+// evolve6/7 removed (files deleted)
 import evolve8 from "../assets/Evolve/IMG-20251028-WA0027.jpg?url";
 import evolve9 from "../assets/Evolve/IMG-20251028-WA0028.jpg?url";
-// evolve10/11/12 removed (files deleted)
+import evolve11 from "../assets/Evolve/IMG-20251028-WA0030.jpg?url";
+// evolve12 removed (file deleted)
 import evolve13 from "../assets/Evolve/IMG-20251028-WA0032.jpg?url";
 // evolve14 removed (IMG-20251028-WA0033.jpg deleted)
 import evolve15 from "../assets/Evolve/IMG-20251028-WA0034.jpg?url";
@@ -34,18 +36,27 @@ import evolve18 from "../assets/Evolve/IMG-20251028-WA0037.jpg?url";
 import buildWithAI1 from "../assets/Build with AI/IMG-20251119-WA0006.jpg?url";
 import buildWithAI2 from "../assets/Build with AI/IMG-20251119-WA0007.jpg?url";
 import buildWithAI3 from "../assets/Build with AI/IMG-20251119-WA0008.jpg?url";
+import buildWithAI4 from "../assets/Build with AI/IMG-20251119-WA0010.jpg?url";
+import buildWithAI5 from "../assets/Build with AI/IMG-20251119-WA0011.jpg?url";
+import buildWithAI6 from "../assets/Build with AI/IMG-20251119-WA0015.jpg?url";
+import buildWithAI7 from "../assets/Build with AI/IMG-20251119-WA0016.jpg?url";
 // Import Sprint to Imagine Cup event images
 import sprintImagine1 from "../assets/Sprint to Imagine Cup IAMSCIENCE/1.jpg?url";
 import sprintImagine2 from "../assets/Sprint to Imagine Cup IAMSCIENCE/2.PNG?url";
 import sprintImagine3 from "../assets/Sprint to Imagine Cup IAMSCIENCE/3.jpg?url";
 // sprintImagine4 removed (IMG-20251028-WA0008.jpg deleted)
 import sprintImagine5 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0010.jpg?url";
+import sprintImagine6 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0011.jpg?url";
+import sprintImagine7 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0015.jpg?url";
+import sprintImagine8 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0018.jpg?url";
+import sprintImagine9 from "../assets/Sprint to Imagine Cup IAMSCIENCE/IMG-20251028-WA0019.jpg?url";
 // Import Sprint to Imagine Cup FJWU event images
 import sprintFjwu1 from "../assets/Sprint to Imagine Cup FJWU/1.jpg?url";
 import sprintFjwu2 from "../assets/Sprint to Imagine Cup FJWU/3.jpg?url";
 import sprintFjwu3 from "../assets/Sprint to Imagine Cup FJWU/4.jpg?url";
 import sprintFjwu4 from "../assets/Sprint to Imagine Cup FJWU/5.jpg?url";
-// sprintFjwu5 removed (6.jpg deleted)
+import sprintFjwu5 from "../assets/Sprint to Imagine Cup FJWU/IMG-20251027-WA0041.jpg?url";
+// sprintFjwu6 removed (6.jpg deleted)
 // Import Tech Innovation AIR event images
 import techAir1 from "../assets/Tech Innvovation AIR/1.jpg?url";
 import techAir2 from "../assets/Tech Innvovation AIR/2.jpg?url";
@@ -57,7 +68,9 @@ import eMustaqbil1 from "../assets/E-Mustaqbil/1.jpg?url";
 import eMustaqbil2 from "../assets/E-Mustaqbil/2.jpg?url";
 import eMustaqbil3 from "../assets/E-Mustaqbil/3.jpg?url";
 import eMustaqbil4 from "../assets/E-Mustaqbil/IMG-20251129-WA0037.jpg?url";
-// eMustaqbil5 removed (IMG-20251129-WA0039.jpg deleted)
+import eMustaqbil5 from "../assets/E-Mustaqbil/IMG-20251129-WA0041.jpg?url";
+import eMustaqbil6 from "../assets/E-Mustaqbil/IMG-20251129-WA0046.jpg?url";
+// eMustaqbil7 removed (IMG-20251129-WA0039.jpg deleted)
 
 export const events = [
     {
@@ -380,8 +393,10 @@ Ali Nawaz, Humair Shoukat`,
             { src: evolve1, alt: "Event Opening", caption: "History made! 🇵🇰" },
             { src: evolve2, alt: "Speaker Session", caption: "Inspiring talks by industry leaders." },
             { src: evolve3, alt: "Audience Engagement", caption: "Interactive Q&A session." },
-            { src: evolve8, alt: "Closing Ceremony", caption: "Celebrating the success of the event." },
+            { src: evolve5, alt: "Panel Discussion", caption: "Experts discussing the future of tech." },
+            { src: evolve8, alt: "Workshop Session", caption: "Hands-on coding session." },
             { src: evolve9, alt: "Group Photo", caption: "Participants and organizers together." },
+            { src: evolve11, alt: "Speaker Interaction", caption: "One-on-one discussions with speakers." },
             { src: evolve13, alt: "Audience Participation", caption: "Engaged and enthusiastic attendees." },
             { src: evolve15, alt: "Event Setup", caption: "Behind-the-scenes preparations." },
             { src: evolve18, alt: "Event Wrap-up", caption: "Looking forward to the next chapter." }
@@ -450,6 +465,26 @@ The future of AI is here, and we’re not just watching—we’re building it. W
                 src: buildWithAI3,
                 alt: "Event Team",
                 caption: "Event team celebrating success"
+            },
+            {
+                src: buildWithAI4,
+                alt: "AI Workshop Session",
+                caption: "Hands-on AI learning experience"
+            },
+            {
+                src: buildWithAI5,
+                alt: "Networking Session",
+                caption: "Participants connecting and sharing ideas"
+            },
+            {
+                src: buildWithAI6,
+                alt: "Technical Presentation",
+                caption: "Deep dive into Generative AI concepts"
+            },
+            {
+                src: buildWithAI7,
+                alt: "Collaborative Learning",
+                caption: "Interactive group discussions and activities"
             }
         ]
     },
@@ -507,6 +542,26 @@ Yet to new cities, new dreams, and an unstoppable journey of imagination!
             },
             {
                 src: sprintImagine5,
+                alt: "Student Engagement",
+                caption: "Students actively participating in the event"
+            },
+            {
+                src: sprintImagine6,
+                alt: "Interactive Workshop",
+                caption: "Hands-on learning and project development"
+            },
+            {
+                src: sprintImagine7,
+                alt: "Innovation Discussion",
+                caption: "Creative minds brainstorming future projects"
+            },
+            {
+                src: sprintImagine8,
+                alt: "Technology Showcase",
+                caption: "Demonstrating cutting-edge tech solutions"
+            },
+            {
+                src: sprintImagine9,
                 alt: "Event Team",
                 caption: "Collaboration with IM Computing and Innovation Society"
             }
@@ -594,6 +649,11 @@ Peshawar is done, Islamabad is done, Rawalpindi is done. Can you guess our next 
                 src: sprintFjwu4,
                 alt: "MCP Workshop",
                 caption: "Arsalan Khattak conducting Model Context Protocol workshop"
+            },
+            {
+                src: sprintFjwu5,
+                alt: "Event Team and Participants",
+                caption: "FJWU team and Microsoft Learn Student Ambassadors collaboration"
             }
         ],
         topics: [
@@ -683,6 +743,16 @@ I want to give a huge shoutout to Sir Imran Saeed for his incredible efforts in 
                 src: eMustaqbil4,
                 alt: "Panel Discussion",
                 caption: "IIUI faculty and alumni panel discussion"
+            },
+            {
+                src: eMustaqbil5,
+                alt: "Networking Session",
+                caption: "Participants and organizers connecting and sharing ideas"
+            },
+            {
+                src: eMustaqbil6,
+                alt: "Event Team and Participants",
+                caption: "CSS Society and Connected Pakistan collaboration success"
             }
         ],
         topics: [
